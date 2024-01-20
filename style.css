@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link{
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color:rgb(220, 53, 69) !important;
+  transform: scale(1.15);
+}
+
+.anchor{
+  transition: all 0.3s;
+}
+
+.anchor:hover{
+  transform: scale(1.15);
+  background-color:rgb(220, 53, 69) !important;
+}
+
+.btn-1{
+  transition: all 0.3s;
+}
+
+.btn-1:hover{
+  transform: scale(1.1);
+
+}
+
+
+.card{
+  transition: all 0.4s;
+}
+
+.card:hover{
+  transform: scale(1.15);
+}
+
+.button-79 {
+  backface-visibility: hidden;
+ color: rgb(187, 45, 59);
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: .5rem .75rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-79:disabled {
+  color: rgb(187, 45, 59);
+
+  cursor: auto;
+}
+
+.button-79:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button-79:not(:disabled):hover:active {
+  transform: scale(1.25) translateY(1rem);
+}
+
+.button-79:focus {
+  outline: 0 solid transparent;
+}
+
+.button-79:focus:before {
+  border-width: .125rem;
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button-79:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button-79:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
+/* About Section */
+
+.aboutPic{
+  transition: all 0.4s;
+}
+
+.aboutPic:hover{
+  transform: scale(1.1);
+}
+
+.aboutLogo{
+  transition: all 0.4s;
+}
+
+.aboutLogo:hover{
+  transform: scale(1.25);
+}
