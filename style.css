@@ -97,6 +97,16 @@
 .button-79:not(:disabled):active {
   transform: translateY(.125rem);
 }
+/* Badges */
+.badges{
+  transition: all 0.4s;
+}
+
+.badges:hover{
+  transform: scale(1.1);
+}
+
+
 
 /* About Section */
 
@@ -114,4 +124,14 @@
 
 .aboutLogo:hover{
   transform: scale(1.25);
+}
+
+.aboutLink{
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.aboutLink:hover{
+  transform: scale(1.5) !important;
+  color:rgb(220, 53, 69) !important;
 }
